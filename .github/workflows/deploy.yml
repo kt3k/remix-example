@@ -28,6 +28,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "comfortable-owl-32"
+          project: "empty-donkey-38"
           entrypoint: "build/index.js" # 📝 Update the entrypoint
           root: "."
