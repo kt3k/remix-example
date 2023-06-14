@@ -29,5 +29,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "comfortable-owl-32"
-          entrypoint: "build/index.js" # 📝 Update the entrypoint
+          entrypoint: "index.js" # 📝 Update the entrypoint
           root: "build"
