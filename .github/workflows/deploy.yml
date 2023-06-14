@@ -29,5 +29,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "empty-donkey-38"
-          entrypoint: "build/index.js" # 📝 Update the entrypoint
-          root: "."
+          entrypoint: "index.js" # 📝 Update the entrypoint
+          root: "build"
